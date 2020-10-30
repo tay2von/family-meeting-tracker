@@ -1,4 +1,4 @@
-The reason I designed this program is to make tracking tool for facilitators to track each of their family meetings. 
+The reason I designed this program is to make a tracking tool for facilitators to track each of their family meetings. 
 
 After the facilitator completes their first meeting, they are required to complete several other meetings on the same case within specific timeframes. 
 
