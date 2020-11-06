@@ -7,6 +7,11 @@
   <title>Document</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="main.js"></script>
+  <script type="text/javascript">
+    document.getElementById("loginButton").onclick = function () {
+      location.href = "login-page.js";
+    };
+  </script>
 </head>
 
 <body>
@@ -30,7 +35,9 @@
   <br>
 
   <div>
-    <button type="button" class="homeButton">Click Here to Login</button>
+    <button onclick="window.location='login-page.html';" id="loginButton" type="button" class="loginButton">Click Here
+      to
+      Login</button>
   </div>
 
   <div class="confidential">

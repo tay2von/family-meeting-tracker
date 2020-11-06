@@ -71,12 +71,12 @@
       bottom:0;
       text-align: center;
       font-size: 30px;
-      padding: 10px;
+      padding: 0px 0px 0px 0px;
       left: 0px;
       right: 0px;
     }
 
-    .homeButton{
+    .loginButton{
       display: flex;
       justify-content: center;
       align-items: center;
@@ -84,7 +84,7 @@
       border: 5px solid #4CAF50;
       width: 50%;
       padding: 14px 28px;
-      font-size: 16px;
+      font-size: 20px;
       cursor: pointer;
       text-align: center;
       transition-duration: 0.4s;
@@ -97,7 +97,7 @@
       border-radius: 30px;
     }
 
-    .homeButton:hover{
+    .loginButton:hover{
       background-color: #4CAF50;
       color: white;
     }
