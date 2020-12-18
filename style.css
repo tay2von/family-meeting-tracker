@@ -1,3 +1,27 @@
+.header {
+  font-size: 45px;
+  padding: 60px;
+  overflow: hidden;
+  text-align: center;
+  /* height:70vh; */
+  /* line-height: 10vh; */ 
+  margin-top: 0px; 
+  margin-bottom: 0px;
+  color: #4CAF50;
+ background: #b8e0b9; 
+   font-family: 'Niconne', cursive;
+  font-weight: 900;
+  text-shadow: 5px 5px 0px #95d097, 
+              10px 10px 0px #5fb962, 
+              15px 15px 0px #46b59b, 
+              20px 20px 0px #1f4720, 
+              25px 25px 0px #081208, 
+              30px 30px 0px #4CAF50, 
+              35px 35px 0px #4CAF50, 
+              40px 40px 0px #4CAF50, 
+              45px 45px 0px #4CAF50;
+}
+  
   /* Add a black background color to the top navigation */
   .topnav {
     background-color: #333;
@@ -6,13 +30,14 @@
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: left;
+    float: center;
     display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   /* Change the color of links on hover */
@@ -58,10 +83,12 @@
     .infodiv{
       text-align: center;
       font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     h1{
       text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     .confidential{
@@ -74,6 +101,7 @@
       padding: 0px 0px 0px 0px;
       left: 0px;
       right: 0px;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     .loginButton{
@@ -90,7 +118,7 @@
       transition-duration: 0.4s;
       margin: 0;
       position: absolute;
-      top: 45%;
+      top: 65%;
       left: 50%;
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
@@ -101,3 +129,4 @@
       background-color: #4CAF50;
       color: white;
     }
+
