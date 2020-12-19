@@ -11,15 +11,6 @@
  background: #b8e0b9; 
    font-family: 'Niconne', cursive;
   font-weight: 900;
-  text-shadow: 5px 5px 0px #95d097, 
-              10px 10px 0px #5fb962, 
-              15px 15px 0px #46b59b, 
-              20px 20px 0px #1f4720, 
-              25px 25px 0px #081208, 
-              30px 30px 0px #4CAF50, 
-              35px 35px 0px #4CAF50, 
-              40px 40px 0px #4CAF50, 
-              45px 45px 0px #4CAF50;
 }
   
   /* Add a black background color to the top navigation */
@@ -129,4 +120,30 @@
       background-color: #4CAF50;
       color: white;
     }
+    
+    /* Instructions Page CSS */
+    .mainBg {
+      background-color: #4CAF50;
+    }
+    
+    .row {
+      display: flex;
+    }
+    
+    .column {
+      flex: 50%;
+      border: 15px solid #000000;
+      padding: 50px;
+      width: 400px; 
+      margin: 20px;
+      border-radius: 30%;
+    }
+
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
+    
+
 
